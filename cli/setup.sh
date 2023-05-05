@@ -31,6 +31,7 @@ LOCATION="eastus"
 WORKSPACE="main"
 # </set_variables>
 
+
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
 RESOURCE_GROUP_NAME=${RESOURCE_GROUP_NAME:-}
 if [[ -z "$RESOURCE_GROUP_NAME" ]]
